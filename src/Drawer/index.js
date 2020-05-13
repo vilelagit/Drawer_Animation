@@ -23,6 +23,7 @@ import {
 import Dashboard from "../screens/Dashboard";
 import Messages from "../screens/Messages";
 import Contact from "../screens/Contact";
+import Tasks from "../screens/Tasks";
 
 const Drawer = createDrawerNavigator();
 const Stack = createStackNavigator();
@@ -36,7 +37,7 @@ const Screens = ({ navigation, style }) => {
           headerTransparent: true,
           headerLeft: () => (
             <Button onPress={() => navigation.openDrawer()}>
-              <Feather name="menu" size={20} />
+              <Feather name="menu" size={20} color="#fff" />
             </Button>
           ),
         }}
@@ -44,6 +45,7 @@ const Screens = ({ navigation, style }) => {
         <Stack.Screen name="Dashboard" component={Dashboard} />
         <Stack.Screen name="Messages" component={Messages} />
         <Stack.Screen name="Contact" component={Contact} />
+        <Stack.Screen name="Tasks" component={Tasks} />
       </Stack.Navigator>
     </Animated.View>
   );
@@ -56,10 +58,16 @@ const DrawerContent = (props) => {
         <AvatarView>
           <Avatar source={require("../../assets/avatar.jpg")} />
           <NameText>Teste</NameText>
-          <EmailText>matheus-vilela@live.com</EmailText>
+          <EmailText>email@email.com</EmailText>
         </AvatarView>
 
         <DrawerView>
+          <DrawerItem
+            label="Tasks"
+            labelStyle={{ color: "white", marginLeft: -16 }}
+            onPress={() => props.navigation.navigate("Tasks")}
+            icon={() => <AntDesign name="phone" size={16} color="white" />}
+          />
           <DrawerItem
             label="Dashboard"
             labelStyle={{ color: "white", marginLeft: -16 }}
@@ -97,7 +105,7 @@ export default () => {
 
   const scale = Animated.interpolate(progress, {
     inputRange: [0, 1],
-    outputRange: [1, 0.8],
+    outputRange: [1, 0.7],
   });
 
   const borderRadius = Animated.interpolate(progress, {
