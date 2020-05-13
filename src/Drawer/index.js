@@ -1,6 +1,6 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import { Feather, AntDesign } from "@expo/vector-icons";
+import { Feather, AntDesign, FontAwesome5 } from "@expo/vector-icons";
 import Animated from "react-native-reanimated";
 import { LinearGradient } from "expo-linear-gradient";
 import {
@@ -23,7 +23,6 @@ import {
 import Dashboard from "../screens/Dashboard";
 import Messages from "../screens/Messages";
 import Contact from "../screens/Contact";
-import Tasks from "../screens/Tasks";
 
 const Drawer = createDrawerNavigator();
 const Stack = createStackNavigator();
@@ -34,6 +33,17 @@ const Screens = ({ navigation, style }) => {
       <Stack.Navigator
         screenOptions={{
           headerTitle: null,
+          headerTitleStyle: {
+            textAlign: "center",
+            fontSize: 25,
+            fontWeight: "bold",
+          },
+          headerStyle: {
+            backgroundColor: "transparent",
+          },
+          headerTintColor: "#fff",
+
+          headerTitleAlign: "center",
           headerTransparent: true,
           headerLeft: () => (
             <Button onPress={() => navigation.openDrawer()}>
@@ -45,7 +55,6 @@ const Screens = ({ navigation, style }) => {
         <Stack.Screen name="Dashboard" component={Dashboard} />
         <Stack.Screen name="Messages" component={Messages} />
         <Stack.Screen name="Contact" component={Contact} />
-        <Stack.Screen name="Tasks" component={Tasks} />
       </Stack.Navigator>
     </Animated.View>
   );
@@ -62,12 +71,6 @@ const DrawerContent = (props) => {
         </AvatarView>
 
         <DrawerView>
-          <DrawerItem
-            label="Tasks"
-            labelStyle={{ color: "white", marginLeft: -16 }}
-            onPress={() => props.navigation.navigate("Tasks")}
-            icon={() => <AntDesign name="phone" size={16} color="white" />}
-          />
           <DrawerItem
             label="Dashboard"
             labelStyle={{ color: "white", marginLeft: -16 }}
@@ -116,7 +119,7 @@ export default () => {
   const screenStyles = { borderRadius, transform: [{ scale }] };
 
   return (
-    <LinearGradient style={{ flex: 1 }} colors={["#5e9fa0", "#121212"]}>
+    <LinearGradient style={{ flex: 1 }} colors={["#121212", "#00CED1"]}>
       <Drawer.Navigator
         drawerType="slide"
         overlayColor="transparent"
@@ -127,6 +130,7 @@ export default () => {
           activeTintColor: "green",
           inactiveTintColor: "green",
         }}
+        useNativeDriver
         sceneContainerStyle={{ backgroundColor: "transparent" }}
         drawerContent={(props) => {
           setProgress(props.progress);

@@ -49,5 +49,3 @@ export const ViewLogout = styled.View`
   justify-content: flex-end;
   padding-bottom: 30px;
 `;
-
-export const View4 = styled.View``;
