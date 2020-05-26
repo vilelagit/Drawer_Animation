@@ -20,8 +20,8 @@
   
 </h4>
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/vilelagit/Animation_Drawer?style=for-the-badge">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/vilelagit/Animation_Drawer?style=for-the-badge">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/vilelagit/Drawer_Animation?style=for-the-badge">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/vilelagit/Drawer_Animation?style=for-the-badge">
   <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/a7e0a78f921646f38c248395026ccafd?style=for-the-badge">
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/vilelagit/Animation_Drawer?style=for-the-badge">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vilelagit/Animation_Drawer?style=for-the-badge">
@@ -31,7 +31,7 @@
 <p align="center">
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#warning-prerequisites">Prerequisites</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;
   
 </p>
 
