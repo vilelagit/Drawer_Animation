@@ -1,4 +1,4 @@
-# Animation_Drawer
+# Drawer_Animation
 
 
 
@@ -9,7 +9,7 @@
     <img alt="Animation_Drawer" src="https://ik.imagekit.io/4ngmidwtjs/3_0aCl5gLPY.png" width="207" height="448" />
     <img alt="Animation_Drawer" src="https://ik.imagekit.io/4ngmidwtjs/4_Rqb8knRuz.png" width="207" height="448" />
     <br>
-    Animation_Drawer <br />
+    Navigation Drawer Animation <br />
     <br align="center">
     <img alt="React Native" src="https://ik.imagekit.io/4ngmidwtjs/1_3Xu9_z4HS.png"  />
     </br>
