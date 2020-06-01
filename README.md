@@ -58,7 +58,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/vilelagit/Animation_Drawer
+$ git clone https://github.com/vilelagit/Drawer_Animation
 
 # Go into the repository
 $ cd Animation_Drawer
