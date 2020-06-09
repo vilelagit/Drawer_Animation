@@ -61,7 +61,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 $ git clone https://github.com/vilelagit/Drawer_Animation
 
 # Go into the repository
-$ cd Animation_Drawer
+$ cd Drawer_Animation
 
 # Install dependencies
 $ yarn install
