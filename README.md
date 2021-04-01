@@ -21,7 +21,7 @@
 </h4>
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/vilelagit/Drawer_Animation?style=for-the-badge">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/vilelagit/Drawer_Animation?style=for-the-badge">
+  <img alt="GitHub language count" src="https://camo.githubusercontent.com/c8f72e17176ec0a7cb1610ed41aad901b66b6fa30de9579b54ac1ac70c98c45b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c616e6775616765732f636f756e742f76696c656c616769742f4472617765725f416e696d6174696f6e3f7374796c653d666f722d7468652d6261646765">
   <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/a7e0a78f921646f38c248395026ccafd?style=for-the-badge">
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/vilelagit/Animation_Drawer?style=for-the-badge">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vilelagit/Animation_Drawer?style=for-the-badge">
